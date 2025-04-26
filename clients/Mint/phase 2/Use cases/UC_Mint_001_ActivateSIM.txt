@@ -1,0 +1,104 @@
+Sim activation business flow 
+
+1. customer calls Mint TFN
+2. call diverted to the Wave iX Agent AI bot
+3. disclaimer plays
+4. AI Agent : how may i help you
+5. Customer: "i want to activate sim"
+6. AI Agent: please provide ACTCODE and Zipcode [need to ask how customer will get the actCode]
+7. customer: provide ACTCODE " code is 'ACBD1234'" and ZIP Code
+8. AI agent confirms with Spelling and ask if this code is correct ? 
+9. customer: Yes, yup, correct, correcto , good, please go ahead, please proceed
+10. AI agent will first find the ID(ICCID) 
+
+10.1 generate token API [TOKEN] will be triggered.
+10.2 [ API_Account/ID-v3] will be triggered and fetch the ID
+10.3 [ API_Brand/SIMs/AcctCode_v3] will be triggered and fetch the ID
+
+Request
+{
+    "actCode": "D7EC4FBCA29",
+    "Token": "{{api_token}}",
+    "URL": "https://w3b-api.ultramobile.com/v1"
+}
+
+Response
+{
+    "deliveryType": "PHYSICAL",
+    "id": "890124036717003192",
+    "masterAgent": 708,
+    "initialProductId": 7000741,
+    "productType": "ECOMM",
+    "type": "ORANGE",
+    "status": "activated",
+    "planType": "REGULAR"
+}
+
+
+Next is to activate the SIM and Agent AI will trigger 
+[API_SIMs/ID/Activate_v3]
+
+
+Request
+{
+    "Brand": "mint",
+    "ICCID": "890124036717003192",    
+    "Token": "{{api_token}}",
+    "URL": "https://w3b-api.ultramobile.com/v1",
+    "ZipCode": "92626"
+}
+
+
+
+11. AI Agent then trigger [API_SIMs/ID/ActivationInfo_v3] to check if the sim has been activated now? once done 
+
+Request
+{
+    "Brand": "mint",
+    "ICCID": "890124036717003192",    
+    "Token": "{{api_token}}",
+    "URL": "https://w3b-api.ultramobile.com/v1"
+}
+
+Response
+{
+    "status": "ACTIVATED",
+    "actCode": "EJ22E1JBD8E",
+    "ICCID": "890124036710255556",
+    "MSISDN": "6575436963",
+    "deliveryType": "PHYSICAL",
+    "order": {
+        "type": "ORANGE",
+        "paid": 9000,
+        "subTotal": 9000,
+        "total": {
+            "wallet": {
+                "cost": 9000,
+                "fees": {
+                    "cost": 0,
+                    "recovery": 0
+                },
+                "taxes": {
+                    "cost": 0
+                }
+            },
+            "creditCard": {
+                "cost": 9000,
+                "fees": {
+                    "cost": 0,
+                    "recovery": 0
+                },
+                "taxes": {
+                    "cost": 0
+                }
+            }
+        }
+    },
+    "plan": {
+        "id": 7000805,
+        "name": "3 Month Unlimited",
+        "months": 3
+    }
+}
+
+11. Once "status":"activated", AI Agent will tell customer that your sim has been activated.

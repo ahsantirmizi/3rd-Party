@@ -1,0 +1,1 @@
+Actually this is a PSTN number, they can (and should, if they want Payments to work) call +15513217895. However, they should register +15513217895@rtt.voip.parloa.us in Settings > Inbound Flow

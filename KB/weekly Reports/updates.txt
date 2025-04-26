@@ -1,0 +1,104 @@
+******************************************************** Mint ************************************************************
+Mint 
+
+- Followed up by with client on endorsing the changes on client's platform. waiting on client's approval on the changes. 
+- Test Cycle is performed & reviewed Test report with Partner on 1/3 to get aligned.
+- Security approval on sharing Customer conversation with the partner.
+- Partner raised the need of having trunk setup details.
+
+Next Items:
+- We have requested client for an interactive session to discuss below 
+	- Figure out if yaml or flow. apart of this we need to ask client for Sim activation flow.
+	- need to get Least /Off production window for changes. tentatively between 1/9 and 1/13
+	- client's approval on the changes
+	- Trunk Setup details with the client.
+- Need to send recordings to Partner for model learning. Security and Alfy are good, Ops will share 50 sample recordings to us.
+ 
+Summary 1/4- 1-10
+- Mint Genesys SIP truk Setup from ibex is done . we need to have DID from Parloa side from where call traffic will be received.
+- inquiry about individual SIP trunk url. Jon confirmed that we only have one URL for SIP. need to confirm from the Parloa on this for the next steps.. POC dkupeli@ultra.me
+- Client have reviewed the flows and they are good
+- Parloa will share the absolute changes in the existing flows. which we will then share with the client.
+- Discussed about the test coverage. Adam mentioned that the FAQ's testing was uncovered, which our QA team has covered and they will share feedback by today.
+- Recordings are awaited from Mint Operations. Operations has committed to share with us by today 1/10.
+- need to present the Ibex Wave iX PP
+
+******************************************************** Red Roof Inn**********************************************************
+
+Red Roof Inn
+- Reviewed the documentation internally but hasn't found that enough. Partner agrees to have a joint session with us next week.
+- Partner is understanding integration piece internally before setting up a joint session with us.
+- Partner is setting up Lab internally and share once this is done.
+- Zee had a chance to review and we are good to discuss that with partner on Joint session.
+- CS has shared the sample transcripts. Pavel showed a transcripts to us for review, that will be forwarded to partner. 
+- 2/15 is the Go-Live date 
+
+Next items:
+1. welcome message, thankyou message 
+2. Personas: we can get them (for each language i.e. English & Spanish)   
+3. Introduction message to the customer before handing over call to the Agent 
+
+Summary 1/4- 1-10
+- transcripts for guest relations and booking(reservations) are shared with the client
+- We have received personnas which needs to be shared with the client for approval
+- we have requested parloa to share some welcome messages for review.
+- we met with client on the Amazon connect integration piece. we are good and shared 6 numbers for the integration with client.
+- we also have shared flows as well i.e. RTT - Pop up view, RRI Transfer To Wave iX, RRI Inbound From Wave iX.
+- we have requested agent access on the client platform. it will be beneficial for testing.
+
+Staging Environment: This is available and we will setup numbers on it. 
+Inbound Numbers: Yes, client will provision test numbers and can provide production numbers as well.
+Certificates: Yes, I can share with client. 
+IP whitelisting: No whitelisting needed at this stage.  
+
+
+
+******************************************************** Tivo Chat **********************************************************
+
+TiVo Chat
+- we have shared Decision trees with the partner. 
+- Joint Tech session with client on integrating Maven solution with Tivo Salesforce
+- Partner walk us through the integration between Maven & Salesforce.
+- High level Timeline has been shared with the Client. however detailed plan will be shared with them later on.
+
+******************************************************** Tivo Voice **********************************************************
+
+TiVo - Voice
+- Time line has been shared with the Client 
+- Considering h is available to get the planning phase done.
+- We can review what is missing in the technical requirements(pre-requisites) and proceed ahead
+- Setup a session with Wasiq on API related queries 1/10.
+
+Next Steps:
+- Detailed Project Plan for TiVo 1/9
+- 
+
+
+******************************************************** Leslie's Pool **********************************************************
+
+Leslie
+- Client able to share use cases and corresponding expected responses
+- Security personnel is concerned about exposing PII data to us. they are looking for a way to expose data to us.
+- MAO API will share customer/order data
+
+Questions
+1. cant we simply forward https://developer.manh.com/docs/reference/apis/ parloa to explore
+2. Genesys telephone integration is independent. we can ask for the Parloa Sip details (if not already have) and raise with CGC to build the Sip trunk.
+3. for FAQs we can raise this with the Ops CS(need POC from Ops who can help)
+4. for intent classification, cant we simply reuse the one we obtained from flipCX? my perception is 
+5. parloa will be working on design solely.
+6. routing destination -> 
+
+
+ 
+
+Next steps
+- Partner will share the testing status by 1/10. 
+- Client to create salesforce login credentials for Our partner
+- Partner to set up and test the connected app in Salesforce once he receives access. 
+- Justin to prepare next steps for getting the chatbot on the site and share the scripts for implementation.
+- Project Plan for Wave iX Virtual Chatbot template for TiVo
+- Internal PMO review ->  Wave iX team -> then publish with Partner
+
+Sanas
+- No updates on SOW. Sinnan to send reminder to Boyd.

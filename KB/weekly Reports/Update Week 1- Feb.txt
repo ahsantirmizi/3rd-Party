@@ -1,0 +1,132 @@
+-------------------------------------------------------------------------------------------
+Tivo - Voice
+- Phase 1 Scope is done we are aiming to automate the IVR routes & FAQs
+- Master sheet sent to the partner.
+	- Implementation Schedule 
+	- Use cases steps
+	- Routing flows(destinations)
+- KB source urls are sent to the partner
+
+next items:
+
+with client:
+- Call with client on discussion their queries on the API end points requirements.
+
+with partner
+- need to have follow up with partner on the plan acceptance, so we can publish plan with the client.
+- need to set weekly touch base with partner
+- Finalize approach for pulling the FAQ data from the source.
+
+Internal 
+- Follow up with CGC on the sip URI of the routings 
+- Establish an ETA with CGC on setting up a Trunk
+-------------------------------------------------------------------------------------------
+Leslie's Pool
+
+- Master Plan document has been shared with the Partner
+	- Implementation Schedule 
+	- Use cases steps
+	- Routing flows(destinations)
+	- API credentials and Endpoint
+	- FAQs
+- Tandem Session(s)
+	- Start Designing BOT
+	- Knowledge base - FAQs Import
+	- Simulations Session
+	- 
+- API validated at partners end
+- Telephony Integration is tested and completed.
+
+Next Steps
+- Communicate updated project plan to the client on Weekly Call
+- Identify SIP URI(s)
+- Resuming BOT Designing.
+- Establish an ETA for the Build and allocate QA resource.
+
+-------------------------------------------------------------------------------------------
+
+Mint - Phase 2
+
+- we met with parloa on item which is related to the bot forwarding the calls to the Agent despite of having a info in the KB.
+- we might need to trained the agent more appropriately by adding the certain phrases. 
+- API tech session  conducted with client 2/6. 
+- Additional FAQs shared with Wasiq. 
+
+
+Next steps
+- work on Linear diagrams flow 
+- Internal tech call with Wasiq on the Genesys integration piece.
+- James to send 30 inactivated test SIM accounts to Ibex team for testing purposes. 
+- once all done we need to send Master Tracker for the Mint with Parloa team.
+- Ahsan to setup a call with Wasiq and Pavel on the Bot design update due to bot forwarding the calls to the Agent despite of having a info in the KB.
+
+-------------------------------------------------------------------------------------------
+TiVo Chat bot
+
+- Successful Launch for the Chatbot on TiVo.
+- Following up on the fixes with the partner.
+- Kickstarted the discussion on Build analytics report on chat conversations data.
+
+Next 
+- Need to connect with Umer for the background.
+- Call setup with Partner (AJ) on Data integration for Chat conversations.
+
+-------------------------------------------------------------------------------------------
+SANAS
+
+- MSA will tentatively be signed by 2/6
+- The revised plan is shared with all stakeholders( CS, Eric, Partner, Bohol IT & PS)
+- 
+
+Next step
+- Get installation instruction manual from Partner and share with BOHOL IT team.
+- Follow up with Eric on the MSA signed date
+
+-------------------------------------------------------------------------------------------
+
+Red Roof Inn - RTT 
+
+- We have received API documentation for Transcripts data 
+- Facing issues on the API call for transcripts.
+
+Next steps
+- Follow up with Partner on the Error we are receiving
+- Connect with Umer for the BG.
+
+-------------------------------------------------------------------------------------------
+
+Tomato.ai - Accent Neutralization
+
+- Vendor Discussion done
+	- installation instructions have been shared
+- We are targeting it for PH & PK from Feb 20 and for India in Start of March.
+
+Next steps:
+- Identify stakeholders CS, PH IT, PS, Partner and build Stakeholder register
+- Need to validate if we are using the same sites, campaign that are being used for the Krisp & Sanas.
+- Identified KPIs to measure. 
+- Need to have Hardware requirements Validated by PHT IT & PK IT 
+- Need to Whitelist 
+- Need to build Schedule and share with all stakeholders
+
+-------------------------------------------------------------------------------------------
+
+RTT Phase 2 - 
+
+- need to put update on it
+
+3/3 
+
+-------------------------------------------------------------------------------------------
+Krisp India - TBD with Sinnan
+
+
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+
+
+FW: Suggestion to Retire Listen Mode Offering
+Re: Recording Analysis for Intent
+Re: Mint Mobile - Summary of Sync on 1/24
+

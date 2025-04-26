@@ -1,0 +1,50 @@
+conversationId,timestamp,actor,actorLocale,originalText,targetLocale,translation,englishTranslation
+67a4d68d911d0d9e63ec3813,2025-02-06T15:35:23.344Z,agent,en-US,"Thank you for calling Red Roof Inn Guest Relations, how may I assist you?",es-ES,"Gracias por llamar a Relaciones con los Huéspedes de Red Roof Inn, ¿en qué puedo ayudarle?","Thank you for calling Red Roof Inn Guest Relations, how may I assist you?"
+67a4d68d911d0d9e63ec3813,2025-02-06T15:35:28.493Z,agent,en-US,My name is Jalisia.,es-ES,Me llamo Jalisia.,My name is Jalisia.
+67a4d68d911d0d9e63ec3813,2025-02-06T15:35:36.999Z,customer,es-ES,Buenos días.,en-US,Good morning.,Good morning.
+67a4d68d911d0d9e63ec3813,2025-02-06T15:35:45.596Z,agent,en-US,How can I assist you today?,es-ES,¿En qué puedo ayudarle hoy?,How can I assist you today?
+67a4d68d911d0d9e63ec3813,2025-02-06T15:35:45.656Z,customer,es-ES,Hello.,en-US,Hello.,Hello.
+67a4d68d911d0d9e63ec3813,2025-02-06T15:35:51.275Z,customer,es-ES,Representante.,en-US,Representative.,Representative.
+67a4d68d911d0d9e63ec3813,2025-02-06T15:35:59.414Z,agent,en-US,How may I assist you today?,es-ES,¿En qué puedo ayudarle hoy?,How may I assist you today?
+67a4d68d911d0d9e63ec3813,2025-02-06T15:36:05.000Z,customer,es-ES,Representante.,en-US,Representative.,Representative.
+67a4d68d911d0d9e63ec3813,2025-02-06T15:36:29.937Z,agent,en-US,You are currently in touch with Guest Relations,es-ES,Actualmente está en contacto con Relaciones con los Huéspedes,You are currently in touch with Guest Relations
+67a13f5667ba2fe6c0f05636,2025-02-03T22:12:59.291Z,agent,en-US,"Thank you for calling Red Roof Inn Guest Relations, how may I assist you?",es-ES,"Gracias por llamar a Relaciones con los Huéspedes de Red Roof Inn, ¿en qué puedo ayudarle?","Thank you for calling Red Roof Inn Guest Relations, how may I assist you?"
+67a13f5667ba2fe6c0f05636,2025-02-03T22:13:21.780Z,agent,en-US,For sure my name is Portia. How may I assist?,es-ES,"Por supuesto, me llamo Portia. ¿En qué puedo ayudarle?",For sure my name is Portia. How may I assist?
+67a13f5667ba2fe6c0f05636,2025-02-03T22:13:30.537Z,customer,es-ES,"Quiero hablar con un representante, por favor.",en-US,"I would like to speak to a representative, please.","I would like to speak to a representative, please."
+67a13f5667ba2fe6c0f05636,2025-02-03T22:13:44.141Z,agent,en-US,You are speaking with a representative. How may I assist?,es-ES,Está hablando con un representante. ¿En qué puedo ayudarle?,You are speaking with a representative. How may I assist?
+67a13f5667ba2fe6c0f05636,2025-02-03T22:13:55.229Z,customer,es-ES,"No quiero hablar, quiero hablar con una persona en persona, en persona, no por la máquina, en persona.",en-US,"I don't want to talk, I want to talk to a person in person, in person, not by machine, in person.","I don't want to talk, I want to talk to a person in person, in person, not by machine, in person."
+67a13f5667ba2fe6c0f05636,2025-02-03T22:14:09.643Z,agent,en-US,contact 800-554-4555,es-ES,contacto 800-554-4555,contact 800-554-4555
+67a13f5667ba2fe6c0f05636,2025-02-03T22:14:41.547Z,agent,en-US,"Hello, are you still there?",es-ES,"Hola, ¿sigue ahí?","Hello, are you still there?"
+67a13f5667ba2fe6c0f05636,2025-02-03T22:14:48.630Z,customer,es-ES,"Sí, quiero hablar con un representante.",en-US,"Yes, I want to speak to a representative.","Yes, I want to speak to a representative."
+67a13f5667ba2fe6c0f05636,2025-02-03T22:15:08.621Z,agent,en-US,"As previously advised, you are speaking with a representative. How may I assist you today? My name is Portia.",es-ES,"Como ya le hemos informado, está hablando con un representante. ¿En qué puedo ayudarle hoy? Me llamo Portia.","As previously advised, you are speaking with a representative. How may I assist you today? My name is Portia."
+67a13f5667ba2fe6c0f05636,2025-02-03T22:15:26.227Z,customer,es-ES,"No, sí, no quiero hablar con un representante en persona, en persona, no en la máquina, en persona, en persona.",en-US,"No, yes, I don't want to talk to a representative in person, in person, not on the machine, in person, in person.","No, yes, I don't want to talk to a representative in person, in person, not on the machine, in person, in person."
+67a13f5667ba2fe6c0f05636,2025-02-03T22:15:40.454Z,agent,en-US,"In that case, please contact us at 800-554-4555.",es-ES,"En ese caso, póngase en contacto con nosotros llamando al 800-554-4555.","In that case, please contact us at 800-554-4555."
+67a0dfa0436d79c24793c4de,2025-02-03T15:24:34.526Z,agent,en-US,"Thank you for calling Red Roof Inn Guest Relations, how may I assist you?",es-ES,"Gracias por llamar a Relaciones con los Huéspedes de Red Roof Inn, ¿en qué puedo ayudarle?","Thank you for calling Red Roof Inn Guest Relations, how may I assist you?"
+67a0dfa0436d79c24793c4de,2025-02-03T15:24:42.235Z,agent,en-US,My name is Jalisia.,es-ES,Me llamo Jalisia.,My name is Jalisia.
+67a0dfa0436d79c24793c4de,2025-02-03T15:24:44.129Z,customer,es-ES,Para un reclamo.,en-US,For a claim.,For a claim.
+67a0dfa0436d79c24793c4de,2025-02-03T15:24:51.318Z,customer,es-ES,Aló.,en-US,Aló.,Aló.
+67a0dfa0436d79c24793c4de,2025-02-03T15:25:00.998Z,agent,en-US,How can I assist you today?,es-ES,¿En qué puedo ayudarle hoy?,How can I assist you today?
+67a0dfa0436d79c24793c4de,2025-02-03T15:25:06.884Z,customer,es-ES,Reclamo.,en-US,Claim.,Claim.
+67a0dfa0436d79c24793c4de,2025-02-03T15:25:21.169Z,agent,en-US,With a forward roofing properties in what city and state?,es-ES,¿En qué ciudad y estado?,With a forward roofing properties in what city and state?
+67a0dfa0436d79c24793c4de,2025-02-03T15:25:27.775Z,customer,es-ES,Florida.,en-US,Florida.,Florida.
+67a0dfa0436d79c24793c4de,2025-02-03T15:25:37.553Z,agent,en-US,What city in Florida?,es-ES,¿En qué ciudad de Florida?,What city in Florida?
+67a0dfa0436d79c24793c4de,2025-02-03T15:25:47.458Z,customer,es-ES,Miami Dade County.,en-US,Miami Dade County.,Miami Dade County.
+67a0dfa0436d79c24793c4de,2025-02-03T15:26:10.282Z,agent,en-US,May I have your name please?,es-ES,"¿Me dice su nombre, por favor?",May I have your name please?
+67a0dfa0436d79c24793c4de,2025-02-03T15:26:16.658Z,customer,es-ES,Manuel Guerra.,en-US,Manuel Guerra.,Manuel Guerra.
+67a0dfa0436d79c24793c4de,2025-02-03T15:26:49.807Z,agent,en-US,"are you referring to our Red Roof PLUS+ Miami Airport location on 3401 NW Le Jeune Rd, Miami, FL 33142 ?",es-ES,"¿se refiere a nuestra ubicación Red Roof PLUS+ Miami Airport en 3401 NW Le Jeune Rd, Miami, FL 33142 ?","are you referring to our Red Roof PLUS+ Miami Airport location on 3401 NW Le Jeune Rd, Miami, FL 33142 ?"
+67a0dfa0436d79c24793c4de,2025-02-03T15:27:03.983Z,customer,es-ES,No.,en-US,No.,No.
+67a0dfa0436d79c24793c4de,2025-02-03T15:27:49.039Z,agent,en-US,"Thank you, please bear with me for a moment",es-ES,"Gracias, por favor tenga paciencia conmigo un momento","Thank you, please bear with me for a moment"
+67a0dfa0436d79c24793c4de,2025-02-03T15:28:14.143Z,agent,en-US,What is the street address of the Red Roof property?,es-ES,¿Cuál es la dirección de la propiedad Red Roof?,What is the street address of the Red Roof property?
+67a0dfa0436d79c24793c4de,2025-02-03T15:28:26.971Z,customer,es-ES,"Okay, this is. This is at Atlanta, Georgia.",en-US,"Okay, this is. This is in Atlanta, Georgia.","Okay, this is. This is in Atlanta, Georgia."
+67a0dfa0436d79c24793c4de,2025-02-03T15:28:28.107Z,customer,es-ES,Subway.,en-US,Subway.,Subway.
+67a0dfa0436d79c24793c4de,2025-02-03T15:28:30.245Z,customer,es-ES,Mall of de Georgia.,en-US,Mall of Georgia.,Mall of Georgia.
+67a0dfa0436d79c24793c4de,2025-02-03T15:28:42.468Z,agent,en-US,"Thank you, please bear with me for a moment",es-ES,"Gracias, por favor tenga paciencia conmigo un momento","Thank you, please bear with me for a moment"
+67a0dfa0436d79c24793c4de,2025-02-03T15:29:43.563Z,agent,en-US,"are you referring to our Red Roof Inn Atlanta - Suwanee- Mall of Georgia located at 3103 Lawrenceville-Suwanee Rd, Suwanee, GA 30024 ?",es-ES,"¿ Se refiere a nuestro Red Roof Inn Atlanta - Suwanee- Mall of Georgia situado en 3103 Lawrenceville-Suwanee Rd, Suwanee, GA 30024 ?","are you referring to our Red Roof Inn Atlanta - Suwanee- Mall of Georgia located at 3103 Lawrenceville-Suwanee Rd, Suwanee, GA 30024 ?"
+67a0dfa0436d79c24793c4de,2025-02-03T15:29:59.283Z,customer,es-ES,Yes.,en-US,Yes.,Yes.
+67a0dfa0436d79c24793c4de,2025-02-03T15:30:26.710Z,agent,en-US,What are the issues you encountered at this location?,es-ES,¿Cuáles son los problemas que ha encontrado en este lugar?,What are the issues you encountered at this location?
+67a0dfa0436d79c24793c4de,2025-02-03T15:30:44.497Z,customer,es-ES,"El problema es que me cobraron el el el depósito y me dijeron que me lo iban a devolver, pero no me lo devolvieron nunca.",en-US,"The problem is that they charged me for the deposit and told me they were going to refund it, but they never did.","The problem is that they charged me for the deposit and told me they were going to refund it, but they never did."
+67a0dfa0436d79c24793c4de,2025-02-03T15:31:14.428Z,agent,en-US,My sincerest apologies for any inconvenience caused,es-ES,Mis más sinceras disculpas por las molestias causadas,My sincerest apologies for any inconvenience caused
+67a0dfa0436d79c24793c4de,2025-02-03T15:31:17.369Z,agent,en-US,"Thank you, please bear with me for a moment",es-ES,"Gracias, por favor téngame paciencia un momento","Thank you, please bear with me for a moment"
+67a0dfa0436d79c24793c4de,2025-02-03T15:31:28.502Z,customer,es-ES,hello,en-US,hello,hello
+67a0dfa0436d79c24793c4de,2025-02-03T15:31:54.849Z,agent,en-US,"I am making some checks, one moment please",es-ES,"Estoy haciendo algunas comprobaciones, un momento por favor","I am making some checks, one moment please"
+67a0dfa0436d79c24793c4de,2025-02-03T15:33:06.392Z,agent,en-US,"Guest Relations does not handle billing, this is handled at the property",es-ES,"Guest Relations no se encarga de la facturación, ésta se gestiona en la propiedad","Guest Relations does not handle billing, this is handled at the property"

@@ -1,0 +1,35 @@
+
+- airtable db is not accessible 
+- for testing do we have number jis per mesh ayega 
+- for Twilio billing, client needs to be on board. 
+- what are the channels for the messaging only text or WhatsApp or will our AI bot will ask customer for a channel and we will send mesg to the customer's desired channel.
+- 
+
+Exiting Flow 
+
+- Step 1: Customer Calls Mint Mobile ( 800-683-7392 - get from google and official Mint Mobile site) 
+- Step 2: IVR System Greets and Navigates, IVR greets with message "Welcome to Mint Mobile! To pay your monthly bill, press 1." customer selects the option to proceed with the payment.
+- Step 3: Step 3: Account Verification-> IVR asked customer for account verification and asked to provide 2 out of the below 
+Name 
+ICCID
+IMEI
+Last four of CC
+Email Address
+Mailing Address 
+E911 Address
+
+- Step 4: Trigger OTP for Authentication. Once the account is verified, the IVR system informs the customer "To proceed, we will send you a One-Time Password (OTP) for verification.".
+- Step 5: Customer Receives OTP. customer receives the OTP via SMS (or email) or WhatsApp. "Your Mint Mobile payment OTP is 123456. It expires in 5 minutes."
+- Step 6: Customer Enters OTP via IVR. IVR system prompts the customer: "Please enter the 6-digit OTP sent to your mobile number."  customer enters the OTP using their phone's keypad.
+- Step 7: OTP Validation:  system validates the OTP: If valid: The process continues. If invalid: The customer is asked to re-enter the OTP or request a new one.
+- Step 8: Payment Confirmation: "Your total bill is $50. Press 1 to confirm payment." 
+- Step 9: Payment Processing. The backend processes the payment using the customer’s saved payment method (or prompts for new payment details via IVR)
+- Step 10: Confirmation Message. "Your payment of $50 was successful. Thank you for using Mint Mobile."
+
+Expected AI BOT Flow
+
+- Step 1: Customer Calls Mint Mobile ( 800-683-7392 - get from google and official Mint Mobile site) 
+
+sip:+13004005000@waveix-ivr-trunk.byoc.usw2.pure.cloud?User-to-User=00{{request.call_id}};encoding=ascii;purpose=isdn-uui;content=isdn-uui
+sip:+13004005000@waveix-ivr-trunk.byoc.usw2.pure.cloud?User-to-User=00{{request.call_id}};encoding=ascii;purpose=isdn-uui;content=isdn-uui
+sip:+13004005000@waveix-ivr-trunk.byoc.usw2.pure.cloud?User-to-User=00{{request.call_id}};encoding=ascii;purpose=isdn-uui;content=isdn-uui

@@ -1,0 +1,22 @@
+
+
+•	English Hotline (provided by customer)
+•	
+•	English to Spanish Translation (provided by Wave iX: +1 (231) 667-9163)
+•	
+•	
+•	
+
+
+1. Spanish Hotline (provided by customer) - TFN(+1 833-509-2572  where Spanish speaking customer will call, RRI softwareone has provided  
+2. Spanish to English Translation (provided by Wave iX: +1 (218) 975-4131) - RRI is expected to divert the call to this number for translating Spanish call into English.
+3. Spanish Queue (provided by customer) - if no agent is available it will be diverted to +1 206-274-6134 == Spanish == Queue: Gen Res Spanish Queue
+
+
+English Queue (provided by customer) call wave iX needs to forward call to	+1 614-526-1024 == English == Queue: Gen Res Queue
+
+
+for mint
+1. for mint .we need to forward them numbers, so he can configure in the flow.
+2. then we can ask QA to run the cycle .. 
+3. we can then setup a session with mint client for complete cycle demo

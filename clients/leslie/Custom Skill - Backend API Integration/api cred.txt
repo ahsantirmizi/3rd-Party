@@ -1,0 +1,12 @@
+Go live - Wednesday 27th 30 min prior to production we test and go live. 
+
+https://lesls-auth.omni.manh.com/discover_user#/order
+email: bilal.khalid@ibex.co
+Leslies@123
+
+Merchant ID – 700000012993 we use for DEV testing.
+
+https://development-na01-lesliespoolmart.demandware.net/on/demandware.store/Sites-Site/default/
+ 
+user: bilal.khalid@ibex.co
+pass: MegamanxLeslies@ibex

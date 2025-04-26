@@ -1,0 +1,13 @@
+DEV environment 
+
+1.so we first need to ask number that bauldwin will configure at AWS connect to deflect the call for spanish speaking customer who wants general reservations & Parloa will give that number
+2.we can then request bauldwin to configure that number 
+3. we also need to request bauldwin to create a separate queue and assign to the 2-3 agents Pavel had short listed or Sinnan ?pavel can do the needful. Bauldwin will share the Queue number(DID)
+4 with Wavei X, we can route the translated call to the DID identified in step 3.
+
+Production environment
+1. same as above we can use the same number..  
+2. same as above
+3. we will then need to request bauldwin to create a separate queue in the Prod and assign to the 45 agents Pavel had short listed. Bauldwin will share the Queue number(DID)
+4 with Wavei X, we can route the translated call to the DID identified in step 3. 
+let me VM on it

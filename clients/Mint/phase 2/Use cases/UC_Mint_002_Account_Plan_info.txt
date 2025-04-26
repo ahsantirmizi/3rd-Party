@@ -1,0 +1,332 @@
+Sim activation business flow 
+
+1. customer calls Mint TFN
+2. call diverted to the Wave iX Agent AI bot
+3. disclaimer plays
+4. AI Agent : how may i help you
+5. Customer: "i want to know my plan information"
+6. AI Agent: sure please give me a moment. 
+
+meanwhile it will pull the ANI information automatically and trigger [API_Account/ID_v3] API to pull the plan ID 
+
+Request
+{
+    "Brand": "MINT",
+    "ANI": "6575436963",
+    "Token": "{{api_token}}",
+    "URL": "https://w3b-api.ultramobile.com/v1"
+}
+
+
+Response
+{
+    "userId": 10611574,
+    "autoRecharge": false,
+    "canRecharge": true,
+    "dataSpeed": 0,
+    "deliveryType": "PHYSICAL",
+    "email": "summer.margos@ultra.me",
+    "firstName": "Summer",
+    "globe": false,
+    "grossAddDt": 1687283173,
+    "hasPendingDriveByPort": false,
+    "intl": 83,
+    "intlMinutes": 10000,
+    "kid": {
+        "hasConsented": false,
+        "isKid": false
+    },
+    "enable6700Purchases": false,
+    "language": "EN",
+    "lastName": "Margos",
+    "masterAgent": 708,
+    "msisdn": "6575436963",
+    "plan": {
+        "activePromo": {
+            "b12g12": false
+        },
+        "amountDue": 48000,
+        "currentMonth": 11,
+        "renewalAmount": 48000,
+        "renewalSubtotal": 48000,
+        "boltOns": [],
+        "currentDays": 1,
+        "startOfCycle": 1738997723,
+        "endOfCycle": 1741596284,
+        "exp": 1744266910,
+        "id": "7000852",
+        "isExpiringSoon": false,
+        "lastAppliedPlanExp": 1744268123,
+        "months": 12,
+        "nextPlan": "7001078",
+        "promos": [],
+        "promoDiscountAmount": 0,
+        "promoValidationRules": [],
+        "renewalBalance": 0,
+        "subType": "REGULAR"
+    },
+    "status": "active",
+    "tou": true,
+    "updating": false,
+    "wallet": 15,
+    "walletRechargeAmount": 0,
+    "zeroCostMinutes": 0,
+    "zipCode": "92626",
+    "ildLimited": 0,
+    "hasActiveUTalkBoltOn": false
+}
+
+it will then use Plan id as an input and trigger  [API_Account/Plans/ID_v2]
+
+Request
+{
+    "Brand": "MINT",
+    "PlanID": "7000852",
+    "Token": "{{api_token}}",
+    "URL": "https://w3b-api.ultramobile.com/v1"
+}
+
+Response
+{
+    "plan": {
+        "active": 1,
+        "boltOns": [
+            {
+                "amount": 5120,
+                "cost": 1500,
+                "id": "7000390",
+                "type": "data",
+                "immediate": true,
+                "recurring": false
+            },
+            {
+                "amount": 10240,
+                "cost": 2000,
+                "id": "7000410",
+                "type": "data",
+                "immediate": true,
+                "recurring": false
+            },
+            {
+                "amount": 0,
+                "cost": 1500,
+                "id": "7000576",
+                "type": "mintech",
+                "immediate": true,
+                "recurring": false
+            },
+            {
+                "amount": 1,
+                "cost": 7900,
+                "id": "7000670",
+                "type": "device_protection",
+                "immediate": true,
+                "recurring": false
+            },
+            {
+                "amount": 2,
+                "cost": 7900,
+                "id": "7000671",
+                "type": "device_protection",
+                "immediate": true,
+                "recurring": false
+            },
+            {
+                "amount": 3,
+                "cost": 7900,
+                "id": "7000672",
+                "type": "device_protection",
+                "immediate": true,
+                "recurring": false
+            },
+            {
+                "amount": 2,
+                "cost": 7900,
+                "id": "7000845",
+                "type": "device_protection",
+                "immediate": true,
+                "recurring": false
+            },
+            {
+                "amount": 3,
+                "cost": 7900,
+                "id": "7000846",
+                "type": "device_protection",
+                "immediate": true,
+                "recurring": false
+            },
+            {
+                "amount": 1024,
+                "cost": 500,
+                "id": "7001006",
+                "type": "canada_roam_data",
+                "immediate": true,
+                "recurring": false
+            },
+            {
+                "amount": 3072,
+                "cost": 1000,
+                "id": "7001007",
+                "type": "canada_roam_data",
+                "immediate": true,
+                "recurring": false
+            },
+            {
+                "amount": 10240,
+                "cost": 2000,
+                "id": "7001008",
+                "type": "canada_roam_data",
+                "immediate": true,
+                "recurring": false
+            }
+        ],
+        "callAnywhere": 100,
+        "classicMultimonth": false,
+        "cost": {
+            "amount": 48000,
+            "acquisitionAmount": 48000,
+            "per": 12,
+            "bonusMonths": 0,
+            "discountedAmount": 48000
+        },
+        "count": 12,
+        "data": {
+            "unlimited": false,
+            "unlimitedLTE": true,
+            "unlimitedLTEPlus": false,
+            "unlimited3G": false,
+            "unlimitedThrottle": false,
+            "capLTE": 61440,
+            "cap3G": 0,
+            "capTetherLTE": 20480,
+            "unnecessary": true
+        },
+        "displayConfigs": {
+            "portIn": true,
+            "refunds": true,
+            "skipActivationInfo": false,
+            "managePlans": true,
+            "recharge": true,
+            "autoRecharge": true,
+            "billing": true,
+            "intlHistory": true,
+            "preferences": true,
+            "dataSaver": false,
+            "contentControl": false,
+            "replacementSim": true,
+            "voiceMinutes": false,
+            "referAFriend": true,
+            "bulk": false,
+            "classic": false,
+            "unlimitedTalk": false,
+            "data": true,
+            "roam": false,
+            "intl": false,
+            "intlMinutes": false,
+            "globe": false,
+            "uTalk": false,
+            "wallet": true,
+            "flexData": false,
+            "flexIntl": false,
+            "payGoWallet": false,
+            "dataPass": false,
+            "voicePass": false
+        },
+        "displayName": "12 Month Unnecessary",
+        "flex": false,
+        "id": "7000852",
+        "immediateBoltOns": {
+            "data": [
+                {
+                    "amount": 5120,
+                    "cost": 1500,
+                    "id": "7000390",
+                    "type": "data"
+                },
+                {
+                    "amount": 10240,
+                    "cost": 2000,
+                    "id": "7000410",
+                    "type": "data"
+                }
+            ],
+            "mintech": [
+                {
+                    "amount": 0,
+                    "cost": 1500,
+                    "id": "7000576",
+                    "type": "mintech"
+                }
+            ],
+            "device_protection": [
+                {
+                    "amount": 1,
+                    "cost": 7900,
+                    "id": "7000670",
+                    "type": "device_protection"
+                },
+                {
+                    "amount": 2,
+                    "cost": 7900,
+                    "id": "7000671",
+                    "type": "device_protection"
+                },
+                {
+                    "amount": 3,
+                    "cost": 7900,
+                    "id": "7000672",
+                    "type": "device_protection"
+                },
+                {
+                    "amount": 2,
+                    "cost": 7900,
+                    "id": "7000845",
+                    "type": "device_protection"
+                },
+                {
+                    "amount": 3,
+                    "cost": 7900,
+                    "id": "7000846",
+                    "type": "device_protection"
+                }
+            ],
+            "canada_roam_data": [
+                {
+                    "amount": 1024,
+                    "cost": 500,
+                    "id": "7001006",
+                    "type": "canada_roam_data"
+                },
+                {
+                    "amount": 3072,
+                    "cost": 1000,
+                    "id": "7001007",
+                    "type": "canada_roam_data"
+                },
+                {
+                    "amount": 10240,
+                    "cost": 2000,
+                    "id": "7001008",
+                    "type": "canada_roam_data"
+                }
+            ]
+        },
+        "intlMinutes": 10000,
+        "multimonth": true,
+        "offerName": "12 Month Unnecessary",
+        "renewalPeriod": 1,
+        "renewalPeriodUnit": "MONTHS",
+        "roamingCredit": 0,
+        "roamingActivationCredit": 0,
+        "talkMinutes": "UNLIMITED",
+        "text": "UNLIMITED",
+        "wholesaleType": "Mint",
+        "metadata": {}
+    }
+}
+
+AI Agent will pull the key value of "renewalbalance" and share with the customer.
+
+AI Agent: your current plan information is xx gb internet, xxx messages, xxx calls minutes etc 
+
+AI agent can further say do you want to renew further 

@@ -1,0 +1,117 @@
+-------------------------------------------------------------------------------------------
+Tivo - Voice
+SIP
+- SIP Trunk is established. tested successful call internally
+Next Step 
+- Follow up with CGC on the sip URI of the routings. 
+ 
+KB for FAQs
+- Partner has no automated solution to pull the . We need to work on it internally.
+- Production KB user created. Talha Khan is working on building the KB that can be ingested into the Parloa Bot.
+
+NEXT: 
+- Need to establish ETA with Talha K for KB articles pulling.
+- Need to discuss the potential solution with Parloa and ask if we can get the API for posting the FAQs directly to the Parloa.
+
+Phase 2 
+- Detailed discussion on the technical flows of Billing Management, Device Activation & Order ID with client
+- Conduct internal brainstorm session with Wasiq on the technical flows.
+- Billing page is throwing Error on sandbox.
+
+NEXT:
+- Wasiq to test Order API, check if we can pull customer email from dialed number.
+- Ahsan to reach out to Srikanth for the error.
+
+-------------------------------------------------------------------------------------------
+Leslie's Pool
+
+- Master Plan is reviewed by Partner and uploaded on Asana.
+
+SIP
+- Trunk Established and Tested.
+- SIP URI are received
+NEXT: need to share with the partner
+
+BOT Designing
+- Designing sessions of All components completed 
+	- Start Designing BOT
+	- Knowledge base - FAQs Import
+	- Simulations Session
+	- Setting up Custom Skill i.e. WISMO
+- QA resource Onboarded for Leslie's Pool implementations.
+Next: Kristina is fine tuning the BOT and will handover for testing by 2/17
+	
+-------------------------------------------------------------------------------------------
+
+Mint - Phase 2
+
+Mint FAQ(s) Improvement
+- we met Adams and figure out that bot is passing the questions to the live agent despite of having.
+- Additional FAQs ingestion.
+NEXT - Additional FAQs shared with Wasiq & Pavel scheduled next week.
+
+Mint API 
+- Client shared list of inactivated SIM for testing. 
+- Login works for Wasiq on the Genesys Cloud.
+- SDK issue is fixed in collaboration with client.
+
+NEXT STEPS
+
+Next steps
+- work on Linear diagrams flow  
+- once all done we need to send Master Tracker for the Mint with Parloa team.
+
+
+-------------------------------------------------------------------------------------------
+TiVo Chat bot
+
+- Following up on the fixes with the partner.
+- Kickstarted the discussion on Build analytics report on chat conversations data.
+
+Next 
+- Need to connect with Umer for the background.
+- Call setup with Partner (AJ) on Data integration for Chat conversations.
+
+-------------------------------------------------------------------------------------------
+SANAS
+
+- MSA/SOW is still in progress
+NEXT STEP:  Follow up with Boyd on the MSA signed date
+- The revised plan is shared with all stakeholders( CS, Eric, Partner, Bohol IT & PS)
+
+-------------------------------------------------------------------------------------------
+
+Red Roof Inn - RTT 
+
+Data Integration
+- API calling issue fixed with the Parloa Support collaborations
+- Insight team is good to start working on it.
+ 
+NEXT: 
+- Establish ETA for DW
+- Onboard Power BI team for the upcoming reporting requ3est 2/14.
+
+Guest Relation 
+- Retros with Operations & Fine tune.
+- Call forwarding from RTT to Spanish queue done.
+NEXT: Testing with Ops scheduled on 2/13
+
+Gen Res Automation
+- TBD by Sinnan
+
+-------------------------------------------------------------------------------------------
+
+Tomato.ai - Accent Neutralization
+
+- Vendor Discussion done
+	- installation instructions have been shared
+- We are targeting it for PH & PK from Feb 20 and for India in Start of March.
+- Whitelisting for url.
+
+Next steps:
+- Identify stakeholders CS, PH IT, PS, Partner and build Stakeholder register
+- Need to validate if we are using the same sites, campaign that are being used for the Krisp & Sanas.
+- Identified KPIs to measure. 
+- Need to have Hardware requirements Validated by PHT IT & PK IT 
+- Need to Whitelist 
+- Need to build Schedule and share with all stakeholders

@@ -1,0 +1,46 @@
+Plan Renewal
+
+1. customer calls Mint TFN
+2. call diverted to the Wave iX Agent AI bot
+3. disclaimer plays
+4. AI Agent : how may i help you
+5. Customer: "i want to renew my balance"
+6. AI Agent: please share CCV and last 4 digit 
+7. Customer will provide CCV and last 4 digit for CC
+8. AI Agent will repeat and confirm by spelling and ask for the confirmation
+9. Cusomter confirms
+10. AI Agent will first check if auto recharge is false by trigger  [API_Accont/ID/auto-Recharge - Check_v2]
+
+
+Request
+{
+    "Brand": "mint",
+    "ANI": "6575323957",
+    "Token": "{{api_token}}",
+    "URL": "https://w3b-api.ultramobile.com/v1"
+}
+
+Response
+{
+    "autoRecharge": false
+}
+
+
+then it will trigger below [API_Post_Account/ID/Billing_V4]
+
+Request
+{
+    "token": "{{api_token}}",
+    "URL": "https://w3b-api.ultramobile.com/v1",
+    "ANI": "6575436963",
+    "CC_Token": "",
+    "month": "",
+    "year": "",
+    "firstName": "",
+    "lastName": "",
+    "cvv": "",
+    "zip": "",
+    "lastFour": "",
+    "Brand": "mint",
+    "ConversationID": ""
+}

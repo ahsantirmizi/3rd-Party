@@ -1,0 +1,24 @@
+Go live - Wednesday 27th 30 min prior to production we test and go live. 
+
+https://lesls-auth.omni.manh.com/discover_user#/order
+email: bilal.khalid@ibex.co
+Leslies@123
+
+Merchant ID – 700000012993 we use for DEV testing.
+
+https://development-na01-lesliespoolmart.demandware.net/on/demandware.store/Sites-Site/default/
+ 
+user: bilal.khalid@ibex.co
+pass: MegamanxLeslies@ibex
+
+D9S31DMA2GCQAS5YHLPMYPP8
+
+Ibex2024!@
+
+
+https://augment.parloa.us/api/v1/conversations/red-roof-inn/analytics?apiKey=35e1b80b-3046-47e5-a08b-873ff4a6164c
+ 
+https://augment.parloa.us/api/v1/conversations/red-roof-inn/analytics?limit=100&skip=0&from=2025-01-01T00:00:00Z&to=2025-01-31T23:59:59Z&apiKey=35e1b80b-3046-47e5-a08b-873ff4a6164c
+
+
+- 

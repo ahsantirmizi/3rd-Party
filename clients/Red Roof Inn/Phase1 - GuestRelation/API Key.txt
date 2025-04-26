@@ -1,0 +1,12 @@
+7ff2d7ba-9209-4ec2-ad2e-62cebd879000
+
+https://augment.parloa.com/api/v1/conversations/red-roof-inn/analytics
+
+35e1b80b-3046-47e5-a08b-873ff4a6164c
+
+https://augment.parloa.com/api/v1/conversations/red-roof-inn/analytics?limit=100&apiKey=35e1b80b-3046-47e5-a08b-873ff4a6164c
+
+
+
+
+

@@ -1,0 +1,692 @@
+Date: Mon, 10 Feb 2025 08:24:51 +0000 (UTC)
+Message-ID: <1791921768.199496.1739175891901@ip-10-98-37-151.us-west-2.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_199495_2006073413.1739175891900"
+
+------=_Part_199495_2006073413.1739175891900
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Change Device Owner - CRM</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Change Device Owner - CRM</h1>
+    <div class=3D"Section1">
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=3D"#" id=3D"=
+toggleAll" rel=3D"nofollow">Expand/Collapse All</a> <script type=3D"text/ja=
+vascript">//<![CDATA[
+
+AJS.toInit(function ()
+{
+AJS.$('#toggleAll').click(function()
+{
+jQuery(".expand-control").each(function(){ jQuery(this).trigger("click");})
+});
+});
+
+//]]>
+</script></p>
+<div class=3D"panel" style=3D"border-width: 1px;">
+<div class=3D"panelHeader" style=3D"border-bottom-width: 1px;"><b>Page Cont=
+ents</b>
+</div>
+<div class=3D"panelContent">
+<h3 id=3D"ChangeDeviceOwnerCRM-/*<![CDATA[*/div.rbtoc1739175891362{padding:=
+0px;}div.rbtoc1739175891362ul{margin-left:0px;}div.rbtoc1739175891362li{mar=
+gin-left:0px;padding-left:0px;}/*]]>*/#ChangeDeviceOwnerCRM-Overview#Change=
+DeviceOwnerCRM-OverviewSystemsInvolved:#"><strong><style type=3D"text/css">=
+/*<![CDATA[*/
+div.rbtoc1739175891362 {padding: 0px;}
+div.rbtoc1739175891362 ul {margin-left: 0px;}
+div.rbtoc1739175891362 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1739175891362">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#ChangeDeviceOwnerCRM-"></a></li>
+<li><a href=3D"#ChangeDeviceOwnerCRM-Overview">Overview</a></li>
+<li><a href=3D"#ChangeDeviceOwnerCRM-SystemsInvolved:">Systems Involved:</a=
+></li>
+<li><a href=3D"#ChangeDeviceOwnerCRM-SequenceDiagram:">Sequence Diagram:</a=
+></li>
+<li><a href=3D"#ChangeDeviceOwnerCRM-OverviewoftheProcess">Overview of the =
+Process</a></li>
+<li><a href=3D"#ChangeDeviceOwnerCRM-DetailedWorkflowSteps">Detailed Workfl=
+ow Steps</a></li>
+<li><a href=3D"#ChangeDeviceOwnerCRM-CRMCaseNoteCreation">CRM Case Note Cre=
+ation</a></li>
+<li><a href=3D"#ChangeDeviceOwnerCRM-KeyComponentsofOwnershipTransfer">Key =
+Components of Ownership Transfer</a></li>
+<li><a href=3D"#ChangeDeviceOwnerCRM-ErrorMessagesSummary">Error Messages S=
+ummary</a></li>
+</ul>
+</div></strong></h3>
+</div>
+</div>
+<p><br></p>
+<div class=3D"rwui_text_box rwui_text_small  rwui_type_default  rwui_id_e2c=
+7f203-5a14-456b-bc4b-30a6eacec776 "><span class=3D"rwui_content rwui_body "=
+><h3 id=3D"ChangeDeviceOwnerCRM-Overview"><strong>Overview</strong></h3></s=
+pan>
+<style>.rwui_text_box.rwui_id_e2c7f203-5a14-456b-bc4b-30a6eacec776 {backgro=
+und-color: #F0F0F0; color: #111111;}.rwui_text_box.rwui_id_e2c7f203-5a14-45=
+6b-bc4b-30a6eacec776 *:not(.rwui_content) {color: #111111;}.rwui_text_box.r=
+wui_id_e2c7f203-5a14-456b-bc4b-30a6eacec776 span.rwui_icon {color: #111111;=
+}</style>
+</div>
+<p>The <strong>Device Ownership Transfer</strong> process allows customers =
+to transfer ownership of <strong>Lifetime devices</strong> to another custo=
+mer. This is a guided workflow that verifies device eligibility, retrieves =
+owner details, and updates ownership records across Magento, Salesforce, Tr=
+inity, and other integrated systems.</p>
+<hr>
+<p><br></p>
+<div class=3D"rwui_text_box rwui_text_small  rwui_type_default  rwui_id_dd7=
+ca8ca-5616-4ceb-9461-bfb2ddef1acc "><span class=3D"rwui_content rwui_body "=
+><h3 id=3D"ChangeDeviceOwnerCRM-SystemsInvolved:"><strong>Systems Involved:=
+</strong></h3></span>
+<style>.rwui_text_box.rwui_id_dd7ca8ca-5616-4ceb-9461-bfb2ddef1acc {backgro=
+und-color: #F0F0F0; color: #111111;}.rwui_text_box.rwui_id_dd7ca8ca-5616-4c=
+eb-9461-bfb2ddef1acc *:not(.rwui_content) {color: #111111;}.rwui_text_box.r=
+wui_id_dd7ca8ca-5616-4ceb-9461-bfb2ddef1acc span.rwui_icon {color: #111111;=
+}</style>
+</div>
+<p>The re-activation process integrates several technologies and APIs to en=
+sure seamless execution:</p>
+<ul>
+<li><strong>Magento</strong>: For managing promotions, service plans, and a=
+ctivation orders.</li>
+<li><strong>Workato</strong>: To orchestrate integration workflows across d=
+ifferent systems.</li>
+<li><strong>Trinity/FE</strong>: For fetching device-related information an=
+d activations.</li>
+<li><strong>NetSuite</strong>: For order, contract and invoice management.<=
+/li>
+<li><strong>Braintree</strong>: For secure payment processing.</li>
+<li><strong>SalesForce</strong>: For viewing order, contract and device inf=
+ormation by agents.</li>
+</ul>
+<p><br></p>
+<div class=3D"rwui_text_box rwui_text_small  rwui_type_default  rwui_id_62a=
+338b8-8262-427c-a102-d2470563669e "><span class=3D"rwui_content rwui_body "=
+><h3 id=3D"ChangeDeviceOwnerCRM-SequenceDiagram:"><strong>Sequence Diagram:=
+</strong></h3><p><strong>&nbsp;</strong></p>
+<div style=3D"text-align:center"><img src=3D"http://www.websequencediagrams=
+.com/?png=3Dmsc1843739058" style=3D"max-width:100%">
+</div></span>
+<style>.rwui_text_box.rwui_id_62a338b8-8262-427c-a102-d2470563669e {backgro=
+und-color: #F0F0F0; color: #111111;}.rwui_text_box.rwui_id_62a338b8-8262-42=
+7c-a102-d2470563669e *:not(.rwui_content) {color: #111111;}.rwui_text_box.r=
+wui_id_62a338b8-8262-427c-a102-d2470563669e span.rwui_icon {color: #111111;=
+}</style>
+</div>
+<p><br></p>
+<div class=3D"rwui_text_box rwui_text_small  rwui_type_default  rwui_id_23c=
+7475b-e566-4bcc-a9cd-8c5279f8306e "><span class=3D"rwui_item_icon rw_extern=
+al_icon_sms"></span><span class=3D"rwui_content rwui_body rwui_has_icon"><h=
+3 id=3D"ChangeDeviceOwnerCRM-OverviewoftheProcess">Overview of the Process<=
+/h3></span>
+<style>.rwui_text_box.rwui_id_23c7475b-e566-4bcc-a9cd-8c5279f8306e {backgro=
+und-color: #F0F0F0; color: #111111;}.rwui_text_box.rwui_id_23c7475b-e566-4b=
+cc-a9cd-8c5279f8306e *:not(.rwui_content) {color: #111111;}.rwui_text_box.r=
+wui_id_23c7475b-e566-4bcc-a9cd-8c5279f8306e span.rwui_icon {color: #111111;=
+}</style>
+</div>
+<ol>
+<li><p><strong>Eligibility</strong>:</p>
+<ul>
+<li>Ownership transfer is applicable only for <strong>Lifetime devices</str=
+ong>.</li>
+<li>Devices with MSO/Hybrid accounts are restricted from ownership transfer=
+.</li>
+<li>The process is initiated through Magento and executed via Workato APIs =
+with data updates synchronized to Salesforce and Trinity.</li>
+</ul></li>
+<li><p><strong>Service State Handling</strong>:</p>
+<ul>
+<li>Once the transfer is completed, the <strong>Trinity</strong> and <stron=
+g>FE (Front End)</strong> systems update the device's service state. The ex=
+pected service state is <strong>5</strong>, but incorrect updates (state <s=
+trong>3</strong>) need further troubleshooting.</li>
+</ul></li>
+</ol>
+<p><br></p>
+<div class=3D"rwui_text_box rwui_text_small  rwui_type_default  rwui_id_eea=
+13f34-6b32-4f69-9ac3-2713110007b5 "><span class=3D"rwui_item_icon rw_extern=
+al_icon_sms"></span><span class=3D"rwui_content rwui_body rwui_has_icon"><h=
+3 id=3D"ChangeDeviceOwnerCRM-DetailedWorkflowSteps">Detailed Workflow Steps=
+</h3></span>
+<style>.rwui_text_box.rwui_id_eea13f34-6b32-4f69-9ac3-2713110007b5 {backgro=
+und-color: #F0F0F0; color: #111111;}.rwui_text_box.rwui_id_eea13f34-6b32-4f=
+69-9ac3-2713110007b5 *:not(.rwui_content) {color: #111111;}.rwui_text_box.r=
+wui_id_eea13f34-6b32-4f69-9ac3-2713110007b5 span.rwui_icon {color: #111111;=
+}</style>
+</div>
+<div id=3D"expander-323361186" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-323361186" cl=
+ass=3D"expand-control"><button type=3D"button" id=3D"expand-button-32336118=
+6" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-expa=
+nded=3D"true" aria-controls=3D"expander-content-323361186"><span class=3D"e=
+xpand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hidden=
+=3D"true"></span><span class=3D"expand-control-text conf-macro-render">Step=
+ 1: TSN Validation and Eligibility Check</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-323361186" class=3D"expand-cont=
+ent" aria-labelledby=3D"expand-button-323361186">
+<ol>
+<li><p><strong>TSN Input</strong>:</p>
+<ul>
+<li>The agent begins by entering the <strong>TSN (TiVo Serial Number)</stro=
+ng> of the device to be transferred.</li>
+<li>API endpoint: <code>/device/state</code></li>
+</ul></li>
+<li><p><strong>Validations</strong>:</p>
+<ul>
+<li><strong>Retail Customer Check</strong>:=20
+<ul>
+<li>If the customer is not a retail customer (e.g., MSO/Hybrid account), ow=
+nership transfer is restricted.</li>
+<li><strong>Error Message</strong>: <em>"Change Ownership is not allowed fo=
+r MSO/Hybrid account."</em></li>
+</ul></li>
+<li><strong>Contract Check</strong>:=20
+<ul>
+<li>If no valid contract exists for the TSN, the system blocks the process.=
+</li>
+<li><strong>Error Message</strong>: <em>"TSN does not have a valid contract=
+ or is not associated with any customer."</em></li>
+</ul></li>
+<li><strong>TSN Format Check</strong>:=20
+<ul>
+<li>If the TSN is invalid or incorrectly formatted:=20
+<ul>
+<li><strong>Error Message</strong>: <em>"Provided TSN is not valid. Please =
+enter a valid serial number."</em></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+</div>
+<p><br></p>
+<div id=3D"expander-2063021475" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-2063021475" c=
+lass=3D"expand-control"><button type=3D"button" id=3D"expand-button-2063021=
+475" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-ex=
+panded=3D"true" aria-controls=3D"expander-content-2063021475"><span class=
+=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hid=
+den=3D"true"></span><span class=3D"expand-control-text conf-macro-render">S=
+tep 2: Plan Validation and Owner Details Display</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-2063021475" class=3D"expand-con=
+tent" aria-labelledby=3D"expand-button-2063021475">
+<ol>
+<li><p><strong>Plan Validation</strong>:</p>
+<ul>
+<li>Ownership transfer is applicable only for <strong>ALL-IN-PLAN (Lifetime=
+ Plan)</strong> devices.</li>
+<li>If the plan is not eligible:=20
+<ul>
+<li><strong>Error Message</strong>: <em>"Ownership transfer is not applicab=
+le for this plan."</em></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Owner Details Display</strong>:</p>
+<ul>
+<li><strong>Old Owner Details</strong>:=20
+<ul>
+<li>Retrieved using the <strong>TSN</strong> via Workato API <code>/device/=
+state</code>.</li>
+</ul></li>
+<li><strong>New Owner Details</strong>:=20
+<ul>
+<li>Retrieved based on the logged-in customer=E2=80=99s account.</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Data Displayed</strong>:</p>
+<ul>
+<li><strong>Old Owner Details</strong>:=20
+<ul>
+<li>Name, email, and associated account details.</li>
+</ul></li>
+<li><strong>New Owner Details</strong>:=20
+<ul>
+<li>Name, email, and associated account details for the new owner.</li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+</div>
+<p><br></p>
+<div id=3D"expander-1448963383" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-1448963383" c=
+lass=3D"expand-control"><button type=3D"button" id=3D"expand-button-1448963=
+383" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-ex=
+panded=3D"true" aria-controls=3D"expander-content-1448963383"><span class=
+=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hid=
+den=3D"true"></span><span class=3D"expand-control-text conf-macro-render">S=
+tep 3: Success Screen</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-1448963383" class=3D"expand-con=
+tent" aria-labelledby=3D"expand-button-1448963383">
+<ol>
+<li><p><strong>Confirmation Popup</strong>:</p>
+<ul>
+<li>A popup prompts the agent to confirm the ownership transfer.</li>
+<li>Options:=20
+<ul>
+<li><strong>No</strong>: Cancels the transfer and stays on the current page=
+.</li>
+<li><strong>Yes</strong>: Proceeds with the ownership transfer.</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Ownership Transfer API Call</strong>:</p>
+<ul>
+<li>Endpoint: <code>/trinity/service</code></li>
+<li><strong>Request Parameters</strong>:<p>{</p><p><br></p><p>&nbsp; &nbsp;=
+ "Tivo serial number": "D6E638236B5E4A3",</p><p>&nbsp; &nbsp; "Source partn=
+er customer ID": "9000004366",</p><p>&nbsp; &nbsp; "Target partner customer=
+ ID": "9000004363",<br><br></p>&nbsp;&nbsp;&nbsp;&nbsp; "requestType": "cha=
+ngeOwner",<p><br></p><p><br></p><p>}</p><p><br></p></li>
+<li><strong>Response Example</strong>:<p>{</p><p>&nbsp; &nbsp; "Ownership t=
+ransfer response": [</p><p>&nbsp; &nbsp; &nbsp; &nbsp; {</p><p>&nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; "Request ID": [</p><p>&nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; { "Content": "5360030d-5297-462e-bc6f-186e=
+97e9038" }</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ],</p><p>&nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "Status": [</p><p>&nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { "Content": "success" }</p><p>&nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; ]</p><p>&nbsp; &nbsp; &nbsp; &nbsp; }</p><p=
+>&nbsp; &nbsp; ]</p><p>}</p><p><br></p><code> </code></li>
+</ul></li>
+<li><p><strong>Error Handling</strong>:</p>
+<ul>
+<li>If the API call fails:=20
+<ul>
+<li><strong>Error Message</strong>: <em>"Ownership transfer failed. Please =
+try again later.</em></li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+</div>
+<hr>
+<div class=3D"rwui_text_box rwui_text_small  rwui_type_default  rwui_id_e1c=
+fda28-ff6b-4925-92aa-c2e3867c757c "><span class=3D"rwui_item_icon rw_extern=
+al_icon_sms"></span><span class=3D"rwui_content rwui_body rwui_has_icon"><h=
+3 id=3D"ChangeDeviceOwnerCRM-CRMCaseNoteCreation"><strong>CRM Case Note Cre=
+ation</strong></h3></span>
+<style>.rwui_text_box.rwui_id_e1cfda28-ff6b-4925-92aa-c2e3867c757c {backgro=
+und-color: #F0F0F0; color: #111111;}.rwui_text_box.rwui_id_e1cfda28-ff6b-49=
+25-92aa-c2e3867c757c *:not(.rwui_content) {color: #111111;}.rwui_text_box.r=
+wui_id_e1cfda28-ff6b-4925-92aa-c2e3867c757c span.rwui_icon {color: #111111;=
+}</style>
+</div>
+<ol>
+<li><p><strong>Case Note Creation</strong>:</p>
+<ul>
+<li>Upon successful ownership transfer, a case note is created in Salesforc=
+e.</li>
+<li>API endpoint: <code>/sf/upsertcase</code></li>
+</ul></li>
+<li><p><strong>Case Note Request Example</strong>:</p><p><code>{<br>
+ &nbsp; &nbsp; "transactionName": "CHGDEVOWN",<br>
+ &nbsp; &nbsp; "tsn": "D6F2E156B142DCB",<br>
+ &nbsp; &nbsp; "contractNumber": "0114627032",<br>
+ &nbsp; &nbsp; "customerNumber": "0016738930",<br>
+ &nbsp; &nbsp; "newCustomerNumber": "0016738319",<br>
+ &nbsp; &nbsp; "createdBy": "cc-it-qecrmcclit-qa@<a class=3D"external-link"=
+ href=3D"http://tivo.com" rel=3D"nofollow">tivo.com</a>",<br>
+ &nbsp; &nbsp; "caseId": "08759857"<br>
+ }<br><br></code></p></li>
+<li><p><strong>Case Note Details</strong>:</p>
+<ul>
+<li>Transaction Name: <strong>CHGDEVOWN</strong></li>
+<li>TSN: Serial number of the transferred device.</li>
+<li>Contract Number: Associated contract for the device.</li>
+<li>Old Customer Number and New Customer Number.</li>
+<li>Created By: The agent or system initiating the transfer.</li>
+<li>Case ID: Unique identifier for the case.</li>
+</ul></li>
+</ol>
+<p><br></p>
+<div class=3D"rwui_text_box rwui_text_small  rwui_type_default  rwui_id_81d=
+13500-3256-4d36-8c84-e5db87e6b441 "><span class=3D"rwui_item_icon rw_extern=
+al_icon_sms"></span><span class=3D"rwui_content rwui_body rwui_has_icon"><h=
+3 id=3D"ChangeDeviceOwnerCRM-KeyComponentsofOwnershipTransfer">Key Componen=
+ts of Ownership Transfer</h3></span>
+<style>.rwui_text_box.rwui_id_81d13500-3256-4d36-8c84-e5db87e6b441 {backgro=
+und-color: #F0F0F0; color: #111111;}.rwui_text_box.rwui_id_81d13500-3256-4d=
+36-8c84-e5db87e6b441 *:not(.rwui_content) {color: #111111;}.rwui_text_box.r=
+wui_id_81d13500-3256-4d36-8c84-e5db87e6b441 span.rwui_icon {color: #111111;=
+}</style>
+</div>
+<ol>
+<li><p><strong>Workato Integration</strong>:</p>
+<ul>
+<li>Handles API calls for:=20
+<ul>
+<li>Validating ownership details.</li>
+<li>Executing ownership transfer.</li>
+<li>Syncing updated data to Salesforce and Trinity.</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Data Updates in Salesforce</strong>:</p>
+<ul>
+<li>Contract details are updated for the new owner.</li>
+<li>Case notes are logged to track the transaction.</li>
+</ul></li>
+<li><p><strong>Service State in Trinity/FE</strong>:</p>
+<ul>
+<li>After ownership transfer, the device service state should update to <st=
+rong>5</strong> (Owned).</li>
+<li>If incorrectly set to <strong>3</strong>, this requires investigation a=
+nd manual correction.</li>
+</ul></li>
+</ol>
+<hr>
+<div class=3D"rwui_text_box rwui_text_small  rwui_type_default  rwui_id_f96=
+2d5b3-e340-4096-8623-aedfdd096145 "><span class=3D"rwui_item_icon rw_extern=
+al_icon_sms"></span><span class=3D"rwui_content rwui_body rwui_has_icon"><h=
+3 id=3D"ChangeDeviceOwnerCRM-ErrorMessagesSummary">Error Messages Summary</=
+h3></span>
+<style>.rwui_text_box.rwui_id_f962d5b3-e340-4096-8623-aedfdd096145 {backgro=
+und-color: #F0F0F0; color: #111111;}.rwui_text_box.rwui_id_f962d5b3-e340-40=
+96-8623-aedfdd096145 *:not(.rwui_content) {color: #111111;}.rwui_text_box.r=
+wui_id_f962d5b3-e340-4096-8623-aedfdd096145 span.rwui_icon {color: #111111;=
+}</style>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<thead>
+<tr>
+<th class=3D"confluenceTh"><strong>Condition</strong></th>
+<th class=3D"confluenceTh"><strong>Error Message</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">Invalid TSN</td>
+<td class=3D"confluenceTd"><em>"Provided TSN is not valid. Please enter a v=
+alid serial number."</em></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Non-retail customer (MSO/Hybrid)</td>
+<td class=3D"confluenceTd"><em>"Change Ownership is not allowed for MSO/Hyb=
+rid account."</em></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">No valid contract for the TSN</td>
+<td class=3D"confluenceTd"><em>"TSN does not have a valid contract or is no=
+t associated with any customer."</em></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Plan not eligible for ownership change</td>
+<td class=3D"confluenceTd"><em>"Ownership transfer is not applicable for th=
+is plan."</em></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Ownership transfer API failure</td>
+<td class=3D"confluenceTd"><em>"Ownership transfer failed. Please try again=
+ later."</em></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_199495_2006073413.1739175891900--

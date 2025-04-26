@@ -1,0 +1,83 @@
+Sim activation business flow 
+
+1. customer calls Mint TFN
+2. call diverted to the Wave iX Agent AI bot
+3. disclaimer plays
+4. AI Agent : how may i help you
+5. Customer: "i want to know my current balance"
+6. AI Agent: sure please give me a moment. 
+
+meanwhile it will pull the ANI information automatically and trigger [API_Account/ID_v3] API
+
+Request
+{
+    "Brand": "MINT",
+    "ANI": "6575436963",
+    "Token": "{{api_token}}",
+    "URL": "https://w3b-api.ultramobile.com/v1"
+}
+
+
+Response
+{
+    "userId": 10611574,
+    "autoRecharge": false,
+    "canRecharge": true,
+    "dataSpeed": 0,
+    "deliveryType": "PHYSICAL",
+    "email": "summer.margos@ultra.me",
+    "firstName": "Summer",
+    "globe": false,
+    "grossAddDt": 1687283173,
+    "hasPendingDriveByPort": false,
+    "intl": 83,
+    "intlMinutes": 10000,
+    "kid": {
+        "hasConsented": false,
+        "isKid": false
+    },
+    "enable6700Purchases": false,
+    "language": "EN",
+    "lastName": "Margos",
+    "masterAgent": 708,
+    "msisdn": "6575436963",
+    "plan": {
+        "activePromo": {
+            "b12g12": false
+        },
+        "amountDue": 48000,
+        "currentMonth": 11,
+        "renewalAmount": 48000,
+        "renewalSubtotal": 48000,
+        "boltOns": [],
+        "currentDays": 1,
+        "startOfCycle": 1738997723,
+        "endOfCycle": 1741596284,
+        "exp": 1744266910,
+        "id": "7000852",
+        "isExpiringSoon": false,
+        "lastAppliedPlanExp": 1744268123,
+        "months": 12,
+        "nextPlan": "7001078",
+        "promos": [],
+        "promoDiscountAmount": 0,
+        "promoValidationRules": [],
+        "renewalBalance": 0,
+        "subType": "REGULAR"
+    },
+    "status": "active",
+    "tou": true,
+    "updating": false,
+    "wallet": 15,
+    "walletRechargeAmount": 0,
+    "zeroCostMinutes": 0,
+    "zipCode": "92626",
+    "ildLimited": 0,
+    "hasActiveUTalkBoltOn": false
+}
+
+AI Agent will pull the key value of "renewalbalance" and share with the customer.
+
+AI Agent: your current balance is $ XXX  
+
+AI agent can further say do you want to renew further 

@@ -1,0 +1,61 @@
+https://app.slack.com/client/T0EGV4Q1E/C084P1J12MQ -- tivo slack
+https://ibexglobal.app.box.com/file/1726612307946?s=i62zjqdot8e90xs9mgeiksx9qwpx3ugi -- box pavel
+https://app.parloa.us/app/settings/team/users
+https://fathom.video/share/hCn8cjpcrxzFCm6BydYYoYocgm3m23FG?tab=summary&timestamp=1863.9999
+https://drive.google.com/drive/folders/11shKlbxN5hn7nxYAmg9EIJ8N7ats9Xkv -- parloa app recording
+https://docs.parloa.com/rule-based-automation/phone-integrations/genesys-cloud
+https://app.parloa.us/studio/insights
+https://app.parloa.us/app/projects
+
+
+
+mint
+
+- successful go-live for mint 
+- monitoring performance of phase 1 release 
+- retrospective with Partner.
+
+Next step
+- Finalize project plan for Phase 2 and launch work
+
+RRI 
+- Go-Live for Gen-Res 
+- Training to Ops team
+- monitoring live calls
+
+Next step
+- Finalize project plan for Phase 2 and launch work
+
+TiVo Chat
+- client shared feedback on the initial Bot testing on non-production KB.
+- Production KB is ingested with the chatbot.
+- Executing detailed test case. 
+
+Next 
+- Hands off from chatbot to human 1/24.
+- TiVo to share feedback on bot for Production KB 1/27
+- Go - Live 2/1
+
+TiVo Voice
+- Operations shared detailed use case flows for the phase 1 use cases 
+- TiVo Plan to be finalized with all project team members.
+- working on TiVo AMP project plan.
+
+Action items
+- Follow up with CGC on routing destinations & SIP trunk by 1/24
+- Ahsan to propose partner to extract the FAQ(s) data from the public forum. we will provide them the urls. 
+
+Leslie's Pool 
+- We finalized the routing configurations & detailed use case flows 
+- BOT configuration session with partner 
+- Working on Project Plan for the Leslie's Pool
+
+Next
+- need to share Plan across all project team 
+- Tech session with Partner on testing SIP Trunk
+- internal tech session on API Authentication on 1/24
+
+Sanas 
+- waiting on SOW & MSA Piece from the legal.
+
+ 

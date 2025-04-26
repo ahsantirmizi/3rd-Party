@@ -1,0 +1,34 @@
+What went well
+
+- learning 
+- Able to learn the technical knowledge of Telephony 
+- Learn Hands on over Genesys telephony Platform 
+- constant weekly reporting on the implementations.
+- Teamwork 
+- we are able to setup SIP and PSTN based trunk for calls routing.
+- Build redundant resources that can work on the implementations
+- we are able to build implementation plans for Wave iX Chatbot, Wave iX Translate, Wave iX Virtual agent.
+- Adequate Vendor support 
+- Adequate API documentation 
+- weekly touch bases with client, partner, internal Project Sync. 
+- Successful Implementations
+- hands on partner tools 
+
+Went Wrong
+
+- Lack of instant messaging communication channel in the start of the implementation. Ideally we should setup a IKM group where team can quickly exchange thoughts and queries.
+- Inadequate requests by Partner : Parloa was sharing information in bits & pieces - ideally they should come up with the low level detailed plan i.e. a kind of a checklist, that could be used in one go to get the requirements from the stakeholders particularly client.
+- No back ground shared Prior to the calls - Ideally host should share some background/agenda in the meeting invite and specifically 
+- Inadequate Escalation path: resources involved in the task must be able to address in person rather than escalation to each others supervisor's
+- some teams were not involved from the start. we should involve the teams from the start. involve affected team in the advance stages
+- Lack of SME (telephony) - we 
+- Lack of documentation - Meeting notes
+- PM works vertically as well as horizontally - dedicated SME's should be hired to be a part of the team who focuses on the certain vertical and PM's should be responsible managing the horizontally.
+- Lack of Governance
+- unrealistic deadlines for implementations
+- overallocation of the resources on Wave iX, which cause PM to work other (no)Projects
+- Insufficient Training: Users struggled due to inadequate hands-on training sessions 
+- Inadequate way of setting up expectations - ideally we need to clearly setup expectation in terms of their role.
+- Inadequate meeting subjects: sometimes multiple mail threads were created that address the same piece-  ideally
+- inadequate Process Adherence: 
+

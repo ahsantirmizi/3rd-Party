@@ -1,0 +1,40 @@
+Sim activation business flow 
+
+1. customer calls Mint TFN
+2. call diverted to the Wave iX Agent AI bot
+3. disclaimer plays
+4. AI Agent : how may i help you
+5. Customer: "i want to know my current balance"
+6. AI Agent: sure please give me a moment. 
+
+meanwhile it will pull the ANI information automatically and trigger [API_Account/Data_v2] API
+
+Request
+{
+    "Brand": "MINT",
+    "ANI": "6575436963",
+    "Token": "{{api_token}}",
+    "URL": "https://w3b-api.ultramobile.com/v1"
+}
+
+Response	
+{
+    "remaining3G": 0,
+    "remaining4G": 61440,
+    "remainingHighSpeedData": 61440,
+    "remainingTether4G": 20480,
+    "sharedRemaining4G": 61440,
+    "sharedUsage4G": 0,
+    "totalBoltOnDataAdded": 0,
+    "totalHighSpeedData": 61440,
+    "usage3G": 0,
+    "usage4G": 0,
+    "usageHighSpeedData": 0,
+    "usageTether4G": 0
+}
+
+AI Agent will pull the key value of "renewalbalance" and share with the customer.
+
+AI Agent: your current balance is $ XXX  
+
+AI agent can further say do you want to renew further 
